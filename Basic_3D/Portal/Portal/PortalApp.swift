@@ -4,7 +4,6 @@ import SwiftUI
 
 @main
 struct PortalApp: App {
-
     @State private var appModel = AppModel()
 
     var body: some Scene {
@@ -12,10 +11,15 @@ struct PortalApp: App {
             ContentView()
                 .environment(appModel)
         }
-        
+
         WindowGroup(id: "portal-view") {
             PortalView()
         }
+
+        ImmersiveSpace(id: "portal-space") {
+            PortalView()
+        }
+        .immersionStyle(selection: .constant(.mixed), in: .mixed)
 
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
             ImmersiveView()
@@ -28,5 +32,5 @@ struct PortalApp: App {
                 }
         }
         .immersionStyle(selection: .constant(.mixed), in: .mixed)
-     }
+    }
 }

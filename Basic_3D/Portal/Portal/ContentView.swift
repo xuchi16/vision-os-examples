@@ -6,6 +6,7 @@ import RealityKitContent
 
 struct ContentView: View {
     @Environment(\.openWindow) var openWindow
+    @Environment(\.openImmersiveSpace) var openSpace
 
     var body: some View {
         VStack {
@@ -14,6 +15,12 @@ struct ContentView: View {
             
             Button("Open Portal") {
                 openWindow(id: "portal-view")
+            }
+            
+            Button("Open Portal") {
+                Task {
+                    await openSpace(id: "portal-space")
+                }
             }
         }
         .padding()
