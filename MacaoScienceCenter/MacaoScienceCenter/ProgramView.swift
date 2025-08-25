@@ -23,15 +23,37 @@ struct ProgramView: View {
                 ProgramDetailView(program: currentProgram)
                     .padding()
             } else {
-                Text("HEY")
+                Text("Please select a program")
             }
         }
-        .navigationSplitViewStyle(.prominentDetail)
         .onAppear {
             if currentProgram == nil {
                 currentProgram = programs[0]
             }
         }
+//        .toolbar {
+//            ToolbarItemGroup(placement: .bottomOrnament) {
+//                Button {
+//                    print("Hey")
+//                } label: {
+//                    Image("fb_white")
+//                        .resizable()
+//                        .aspectRatio(contentMode: .fit)
+//                        .frame(width: 30, height: 30)
+//                }
+//                .padding()
+//
+//                Button {
+//                    print("Hey")
+//                } label: {
+//                    Image("x_white")
+//                        .resizable()
+//                        .aspectRatio(contentMode: .fit)
+//                        .frame(width: 30, height: 30)
+//                }
+//                .padding()
+//            }
+//        }
     }
 }
 
