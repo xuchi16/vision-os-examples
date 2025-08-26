@@ -27,9 +27,18 @@ struct RotateGesture3DView: View {
                 .targetedToEntity(cube)
                 .onChanged { value in
                     let quatd = value.rotation.quaternion
-                    let quatf = simd_quatf(ix: Float(quatd.imag.x), iy: Float(quatd.imag.y), iz: Float(quatd.imag.z), r: Float(quatd.real))
+                    let quatf = simd_quatf(ix: Float(quatd.imag.x), iy: Float(quatd.imag.y), iz: Float(-quatd.imag.z), r: Float(quatd.real))
                     cube.transform.rotation = quatf
                 }
+            
+//            RotateGesture3D(constrainedToAxis: .y)
+//                .targetedToAnyEntity()
+//                .onChanged { value in
+//
+//                    let rotation = value.rotation
+//                    let rotationTransform = Transform(AffineTransform3D(rotation: rotation))
+//                    value.entity.transform.rotation = rotationTransform.rotation
+//                }
         )
     }
 }
