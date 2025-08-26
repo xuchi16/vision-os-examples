@@ -10,8 +10,7 @@ public struct MoveSystem: System {
     }
     
     public func update(context: SceneUpdateContext) {
-        let entities = context.scene.performQuery(Self.moveQuery)
-        
+        let entities = context.entities(matching: Self.moveQuery, updatingSystemWhen: .rendering)
         for entity in entities {
             guard var moveComponent = entity.components[MoveComponent.self] else {
                 continue
@@ -23,8 +22,8 @@ public struct MoveSystem: System {
             // Calculate position
             let center = moveComponent.center
             let x = cos(moveComponent.angle) * moveComponent.radius + center.x
-            let y = sin(moveComponent.angle) * moveComponent.radius + center.y
-            entity.position = SIMD3<Float>(x, y, entity.position.z)
+            let z = sin(moveComponent.angle) * moveComponent.radius + center.z
+            entity.position = SIMD3<Float>(x, entity.position.y, z)
             
             entity.components[MoveComponent.self] = moveComponent
             
