@@ -12,6 +12,10 @@ struct ParticlesApp: App {
             ContentView()
                 .environment(appModel)
         }
+        
+        WindowGroup(id: "particle") {
+            ParticleView()
+        }
         .windowStyle(.volumetric)
 
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
@@ -25,5 +29,5 @@ struct ParticlesApp: App {
                 }
         }
         .immersionStyle(selection: .constant(.mixed), in: .mixed)
-    }
+     }
 }

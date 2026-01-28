@@ -7,45 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2C7D6E42F186F0F00C20708 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C2C7D6E32F186F0F00C20708 /* RealityKitContent */; };
+		C268BED22F2A040A00AFED5F /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = C268BED12F2A040A00AFED5F /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		C2C7D6F32F186F1100C20708 /* PBXContainerItemProxy */ = {
+		C268BEE12F2A040C00AFED5F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = C2C7D6D62F186F0F00C20708 /* Project object */;
+			containerPortal = C268BEC42F2A040A00AFED5F /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C2C7D6DD2F186F0F00C20708;
+			remoteGlobalIDString = C268BECB2F2A040A00AFED5F;
 			remoteInfo = Particles;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C2C7D6DE2F186F0F00C20708 /* Particles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Particles.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2C7D6E22F186F0F00C20708 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		C2C7D6F22F186F1100C20708 /* ParticlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C268BECC2F2A040A00AFED5F /* Particles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Particles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C268BED02F2A040A00AFED5F /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		C268BEE02F2A040C00AFED5F /* ParticlesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ParticlesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		C2C7D6F82F186F1100C20708 /* Exceptions for "Particles" folder in "Particles" target */ = {
+		C268BEE62F2A040C00AFED5F /* Exceptions for "Particles" folder in "Particles" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
 			);
-			target = C2C7D6DD2F186F0F00C20708 /* Particles */;
+			target = C268BECB2F2A040A00AFED5F /* Particles */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C2C7D6E02F186F0F00C20708 /* Particles */ = {
+		C268BECE2F2A040A00AFED5F /* Particles */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				C2C7D6F82F186F1100C20708 /* Exceptions for "Particles" folder in "Particles" target */,
+				C268BEE62F2A040C00AFED5F /* Exceptions for "Particles" folder in "Particles" target */,
 			);
 			path = Particles;
 			sourceTree = "<group>";
 		};
-		C2C7D6F52F186F1100C20708 /* ParticlesTests */ = {
+		C268BEE32F2A040C00AFED5F /* ParticlesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = ParticlesTests;
 			sourceTree = "<group>";
@@ -53,15 +53,15 @@
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2C7D6DB2F186F0F00C20708 /* Frameworks */ = {
+		C268BEC92F2A040A00AFED5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2C7D6E42F186F0F00C20708 /* RealityKitContent in Frameworks */,
+				C268BED22F2A040A00AFED5F /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2C7D6EF2F186F1100C20708 /* Frameworks */ = {
+		C268BEDD2F2A040C00AFED5F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,29 +71,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C2C7D6D52F186F0F00C20708 = {
+		C268BEC32F2A040A00AFED5F = {
 			isa = PBXGroup;
 			children = (
-				C2C7D6E02F186F0F00C20708 /* Particles */,
-				C2C7D6E12F186F0F00C20708 /* Packages */,
-				C2C7D6F52F186F1100C20708 /* ParticlesTests */,
-				C2C7D6DF2F186F0F00C20708 /* Products */,
+				C268BECE2F2A040A00AFED5F /* Particles */,
+				C268BECF2F2A040A00AFED5F /* Packages */,
+				C268BEE32F2A040C00AFED5F /* ParticlesTests */,
+				C268BECD2F2A040A00AFED5F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C2C7D6DF2F186F0F00C20708 /* Products */ = {
+		C268BECD2F2A040A00AFED5F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2C7D6DE2F186F0F00C20708 /* Particles.app */,
-				C2C7D6F22F186F1100C20708 /* ParticlesTests.xctest */,
+				C268BECC2F2A040A00AFED5F /* Particles.app */,
+				C268BEE02F2A040C00AFED5F /* ParticlesTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2C7D6E12F186F0F00C20708 /* Packages */ = {
+		C268BECF2F2A040A00AFED5F /* Packages */ = {
 			isa = PBXGroup;
 			children = (
-				C2C7D6E22F186F0F00C20708 /* RealityKitContent */,
+				C268BED02F2A040A00AFED5F /* RealityKitContent */,
 			);
 			path = Packages;
 			sourceTree = "<group>";
@@ -101,100 +101,100 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2C7D6DD2F186F0F00C20708 /* Particles */ = {
+		C268BECB2F2A040A00AFED5F /* Particles */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2C7D6F92F186F1100C20708 /* Build configuration list for PBXNativeTarget "Particles" */;
+			buildConfigurationList = C268BEE72F2A040C00AFED5F /* Build configuration list for PBXNativeTarget "Particles" */;
 			buildPhases = (
-				C2C7D6DA2F186F0F00C20708 /* Sources */,
-				C2C7D6DB2F186F0F00C20708 /* Frameworks */,
-				C2C7D6DC2F186F0F00C20708 /* Resources */,
+				C268BEC82F2A040A00AFED5F /* Sources */,
+				C268BEC92F2A040A00AFED5F /* Frameworks */,
+				C268BECA2F2A040A00AFED5F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C2C7D6E02F186F0F00C20708 /* Particles */,
+				C268BECE2F2A040A00AFED5F /* Particles */,
 			);
 			name = Particles;
 			packageProductDependencies = (
-				C2C7D6E32F186F0F00C20708 /* RealityKitContent */,
+				C268BED12F2A040A00AFED5F /* RealityKitContent */,
 			);
 			productName = Particles;
-			productReference = C2C7D6DE2F186F0F00C20708 /* Particles.app */;
+			productReference = C268BECC2F2A040A00AFED5F /* Particles.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C2C7D6F12F186F1100C20708 /* ParticlesTests */ = {
+		C268BEDF2F2A040C00AFED5F /* ParticlesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2C7D6FE2F186F1100C20708 /* Build configuration list for PBXNativeTarget "ParticlesTests" */;
+			buildConfigurationList = C268BEEC2F2A040C00AFED5F /* Build configuration list for PBXNativeTarget "ParticlesTests" */;
 			buildPhases = (
-				C2C7D6EE2F186F1100C20708 /* Sources */,
-				C2C7D6EF2F186F1100C20708 /* Frameworks */,
-				C2C7D6F02F186F1100C20708 /* Resources */,
+				C268BEDC2F2A040C00AFED5F /* Sources */,
+				C268BEDD2F2A040C00AFED5F /* Frameworks */,
+				C268BEDE2F2A040C00AFED5F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C2C7D6F42F186F1100C20708 /* PBXTargetDependency */,
+				C268BEE22F2A040C00AFED5F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				C2C7D6F52F186F1100C20708 /* ParticlesTests */,
+				C268BEE32F2A040C00AFED5F /* ParticlesTests */,
 			);
 			name = ParticlesTests;
 			packageProductDependencies = (
 			);
 			productName = ParticlesTests;
-			productReference = C2C7D6F22F186F1100C20708 /* ParticlesTests.xctest */;
+			productReference = C268BEE02F2A040C00AFED5F /* ParticlesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C2C7D6D62F186F0F00C20708 /* Project object */ = {
+		C268BEC42F2A040A00AFED5F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 2620;
 				LastUpgradeCheck = 2620;
 				TargetAttributes = {
-					C2C7D6DD2F186F0F00C20708 = {
+					C268BECB2F2A040A00AFED5F = {
 						CreatedOnToolsVersion = 26.2;
 					};
-					C2C7D6F12F186F1100C20708 = {
+					C268BEDF2F2A040C00AFED5F = {
 						CreatedOnToolsVersion = 26.2;
-						TestTargetID = C2C7D6DD2F186F0F00C20708;
+						TestTargetID = C268BECB2F2A040A00AFED5F;
 					};
 				};
 			};
-			buildConfigurationList = C2C7D6D92F186F0F00C20708 /* Build configuration list for PBXProject "Particles" */;
+			buildConfigurationList = C268BEC72F2A040A00AFED5F /* Build configuration list for PBXProject "Particles" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = C2C7D6D52F186F0F00C20708;
+			mainGroup = C268BEC32F2A040A00AFED5F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C2C7D6DF2F186F0F00C20708 /* Products */;
+			productRefGroup = C268BECD2F2A040A00AFED5F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2C7D6DD2F186F0F00C20708 /* Particles */,
-				C2C7D6F12F186F1100C20708 /* ParticlesTests */,
+				C268BECB2F2A040A00AFED5F /* Particles */,
+				C268BEDF2F2A040C00AFED5F /* ParticlesTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2C7D6DC2F186F0F00C20708 /* Resources */ = {
+		C268BECA2F2A040A00AFED5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2C7D6F02F186F1100C20708 /* Resources */ = {
+		C268BEDE2F2A040C00AFED5F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -204,14 +204,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C2C7D6DA2F186F0F00C20708 /* Sources */ = {
+		C268BEC82F2A040A00AFED5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C2C7D6EE2F186F1100C20708 /* Sources */ = {
+		C268BEDC2F2A040C00AFED5F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -221,15 +221,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C2C7D6F42F186F1100C20708 /* PBXTargetDependency */ = {
+		C268BEE22F2A040C00AFED5F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C2C7D6DD2F186F0F00C20708 /* Particles */;
-			targetProxy = C2C7D6F32F186F1100C20708 /* PBXContainerItemProxy */;
+			target = C268BECB2F2A040A00AFED5F /* Particles */;
+			targetProxy = C268BEE12F2A040C00AFED5F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		C2C7D6FA2F186F1100C20708 /* Debug */ = {
+		C268BEE82F2A040C00AFED5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -258,7 +258,7 @@
 			};
 			name = Debug;
 		};
-		C2C7D6FB2F186F1100C20708 /* Release */ = {
+		C268BEE92F2A040C00AFED5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -287,7 +287,7 @@
 			};
 			name = Release;
 		};
-		C2C7D6FC2F186F1100C20708 /* Debug */ = {
+		C268BEEA2F2A040C00AFED5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -351,7 +351,7 @@
 			};
 			name = Debug;
 		};
-		C2C7D6FD2F186F1100C20708 /* Release */ = {
+		C268BEEB2F2A040C00AFED5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -408,7 +408,7 @@
 			};
 			name = Release;
 		};
-		C2C7D6FF2F186F1100C20708 /* Debug */ = {
+		C268BEED2F2A040C00AFED5F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -431,7 +431,7 @@
 			};
 			name = Debug;
 		};
-		C2C7D7002F186F1100C20708 /* Release */ = {
+		C268BEEE2F2A040C00AFED5F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -457,29 +457,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2C7D6D92F186F0F00C20708 /* Build configuration list for PBXProject "Particles" */ = {
+		C268BEC72F2A040A00AFED5F /* Build configuration list for PBXProject "Particles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2C7D6FC2F186F1100C20708 /* Debug */,
-				C2C7D6FD2F186F1100C20708 /* Release */,
+				C268BEEA2F2A040C00AFED5F /* Debug */,
+				C268BEEB2F2A040C00AFED5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2C7D6F92F186F1100C20708 /* Build configuration list for PBXNativeTarget "Particles" */ = {
+		C268BEE72F2A040C00AFED5F /* Build configuration list for PBXNativeTarget "Particles" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2C7D6FA2F186F1100C20708 /* Debug */,
-				C2C7D6FB2F186F1100C20708 /* Release */,
+				C268BEE82F2A040C00AFED5F /* Debug */,
+				C268BEE92F2A040C00AFED5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2C7D6FE2F186F1100C20708 /* Build configuration list for PBXNativeTarget "ParticlesTests" */ = {
+		C268BEEC2F2A040C00AFED5F /* Build configuration list for PBXNativeTarget "ParticlesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2C7D6FF2F186F1100C20708 /* Debug */,
-				C2C7D7002F186F1100C20708 /* Release */,
+				C268BEED2F2A040C00AFED5F /* Debug */,
+				C268BEEE2F2A040C00AFED5F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -487,11 +487,11 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C2C7D6E32F186F0F00C20708 /* RealityKitContent */ = {
+		C268BED12F2A040A00AFED5F /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = C2C7D6D62F186F0F00C20708 /* Project object */;
+	rootObject = C268BEC42F2A040A00AFED5F /* Project object */;
 }
