@@ -40,5 +40,25 @@ def Xform "Root"
         float3 xformOp:translate = (5.4948032e-8, 0.15060687, 0)
         uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
     }
+
+    def "Sun" (
+        active = true
+        prepend references = @Sun.usdz@
+    )
+    {
+        float3 xformOp:scale = (0.4, 0.4, 0.4)
+        float3 xformOp:translate = (0.14937907, 0.06276699, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
+
+    def "Uranus" (
+        active = true
+        prepend references = @Uranus.usdz@
+    )
+    {
+        float3 xformOp:scale = (1, 1, 1)
+        float3 xformOp:translate = (-0.21095946, 0, 0)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+    }
 }
 

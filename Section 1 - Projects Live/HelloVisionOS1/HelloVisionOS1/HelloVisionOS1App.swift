@@ -23,7 +23,7 @@ struct HelloVisionOS1App: App {
         
         // VOLUME!!
         // 2. 给它一个新名称
-        WindowGroup(id: "volume") {
+        WindowGroup(id: "111") {
             // 1. 替换为 VolumeView
             VolumeView()
                 .environment(appModel)

@@ -14,7 +14,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack {
-            Model3D(named: "Scene", bundle: realityKitContentBundle)
+            // Model3D(named: "Scene", bundle: realityKitContentBundle)
 
             Text("你好 Vision Pro")
                 .font(.title)
@@ -56,13 +56,13 @@ struct ContentView: View {
                 openWindow(id: "window")
             } label: {
                 // 名称
-                Text("Open Window")
+                Text("Open Window 2026")
             }
 
             // VOLUME!!
             Button {
                 print("Hello")
-                openWindow(id: "volume")
+                openWindow(id: "111")
             } label: {
                 Text("Open Volume")
             }

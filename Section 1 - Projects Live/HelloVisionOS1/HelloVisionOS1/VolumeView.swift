@@ -7,10 +7,13 @@ import SwiftUI
 
 struct VolumeView: View {
     var body: some View {
-        // 声明了 Model3D 里的模型
-        Model3D(named: "Scene", bundle: realityKitContentBundle)
-        
-        Text("Hello Volume")
+        VStack {
+            // 声明了 Model3D 里的模型
+            Model3D(named: "NewScene", bundle: realityKitContentBundle)
+//            Model3D(named: "Scene")
+            
+            Text("Hello Volume")
+        }
     }
 }
 
